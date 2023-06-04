@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+li.done {
+    text-decoration: line-through;
+}
