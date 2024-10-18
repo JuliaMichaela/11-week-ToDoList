@@ -6,12 +6,4 @@ function createTask () {
     const listItem = document.createElement('li');
     listItem.innerText = task.value;
     list.append(listItem);
-
-
-
-    
-    console.log (taskContent);
-    
-    console.log (result)
 }
-// console.log ()
