@@ -9,16 +9,14 @@
 <body>
     <div>
         <h1>ToDo List</h1>
-        <div>
-            <input type="text">
-            <button>Добавить</button>
-            <div id="content"></div>
+        <div >
+            <input id="task" type="text" value="Введите задачу">
+            <button onclick="createTask()">Добавить</button>
         </div>
+        <div>
+            <ul id="contentList">
+            </ul>
     </div>
-    
-
-
-
     <script src="./script.js"></script>
 </body>
 </html>
