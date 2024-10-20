@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.done {
+    text-decoration: line-through;
+    color: grey;
+}
+
+#btn {
+    color:white;
+    background-color: rgb(15, 187, 15);
+    border: none;
+
+}
